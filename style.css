@@ -1,0 +1,1464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.top-section{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.top-section .logo img{
+    width: 40px;
+    height: 40px;
+}
+.top-section .navigation{
+    padding-top: 10px;
+}
+.top-section .navigation ul{
+    display: flex;
+    list-style: none;
+}
+.top-section .navigation ul li a{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+}
+.top-section .navigation ul li a:hover{
+    background-color: rgb(173, 166, 214);
+    transition: all 0.5s ease-in-out;
+}
+.top-section .login-signup{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#login-btn{
+    width: 100px;
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 30px;
+}
+#login-btn:hover{
+color: white;
+background-color: darkblue;
+border-radius: 30px;
+cursor: pointer;
+transition: all 0.5s ease-in;
+}
+#signup-btn{
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 30px;
+}
+#signup-btn:hover{
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: darkblue;
+    transition: all 0.5s ease-in;
+}
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container-1 .sub-container-1 .container-head-1-1 h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+.container-1 .sub-container-1 .container-head-1-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-1 .sub-container-1 .container-head-1-2 .text-container-1 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.container-1 .sub-container-1 .container-head-1-2 .exchange-1{
+    padding-top: 12px;
+}
+.container-1 .sub-container-1 .container-head-1-2 .exchange-1 img{
+   width: 40px;
+   height: 40px;
+}
+.container-1 .sub-container-1 .container-head-1-2 .text-container-2 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.container-1 .sub-container-1-a .container-subtitle-1-a-1 h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.container-1 .sub-container-1-a .container-head-1-a-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.container-1 .sub-container-1-a .container-head-1-a-2 .get-started button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.container-1 .sub-container-1-a .container-head-1-a-2 .arrow-upper img{
+    width: 40px;
+    height: 40px;
+}
+.container-1 .sub-container-1-a .container-head-1-a-2 .text-container-3 h2{
+    font-size: 25px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.container-2{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-2 .sub-container-2{
+    border: 2px solid rgba(77, 77, 77, 0.459);
+    position: relative;
+    width: 1000px;
+    border-radius: 30px;
+    margin-left: 240px;
+    height: 400px;
+}
+.container-2 .sub-container-2-a{
+    border: 2px solid rgba(77, 77, 77, 0.459);
+    position: relative;
+    width: 1050px;
+    background-color: #fff;
+    margin-left: 215px;
+    border-radius: 30px;
+    margin-top: -390px;
+    height: 400px;
+}
+.container-2 .sub-container-2-b{
+    border: 2px solid black;
+    border-radius: 30px;
+    position: relative;
+    background-color: white;
+    width: 1100px;
+    margin-left: 165px;
+    margin-top: -390px;
+    margin-bottom: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.container-2 .sub-container-2-b .text-container-4 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.container-2 .sub-container-2-b .text-container-4 h2{
+    color: gray;
+    font-size: 25px;
+    font-weight: 300;
+}
+.container-2 .sub-container-2-b .text-container-4 h3{
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.container-2 .sub-container-2-b .text-container-4 .text-container-4-a{
+    display: flex;
+    justify-content: space-between;
+}
+.container-2 .sub-container-2-b .text-container-4 .text-container-4-a .arrow-upper-2 img{
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.container-2 .sub-container-2-b .text-container-4 .text-container-4-a .text-container-4-b h2{
+    padding-right: 320px;
+    padding-top: 25px;
+    color: black;
+    cursor: pointer;
+}
+.container-2 .sub-container-2-b .home-image img{
+    width: 500px;
+    height: 450px;
+}
+.trade-brands{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.trade-brands .sub-trade-1{
+display: flex;
+background-color: rgb(238, 238, 238);
+border-radius: 30px;
+height: 50px;
+margin-right: 10px;
+padding-top: 5px;
+padding-left: 20px;
+padding-right: 20px;
+justify-content: space-between;
+}
+.trade-brands .sub-trade-1 .trade-icon-1 img{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.trade-brands .sub-trade-1 .trade-text-1 h3{
+    font-size: 20px;
+    padding-top: 8px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.trade-brands .sub-trade-1 .trade-text-btn-1 button{
+    border: 2px solid gray;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+/* ================================================== */
+
+
+.trade-brands .sub-trade-2{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    }
+    .trade-brands .sub-trade-2 .trade-icon-2 img{
+        width: 40px;
+        height: 40px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-2 .trade-text-2 h3{
+        font-size: 20px;
+        padding-top: 8px;
+        font-weight: 300;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-2 .trade-text-btn-2 button{
+        border: 2px solid gray;
+        background-color: #fff;
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    
+    
+/* ================================================== */
+
+
+.trade-brands .sub-trade-3{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    height: 50px;
+    padding-top: 5px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    }
+    .trade-brands .sub-trade-3 .trade-icon-3 img{
+        width: 40px;
+        height: 40px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-3 .trade-text-3 h3{
+        font-size: 20px;
+        padding-top: 9px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-3 .trade-text-btn-3 button{
+        border: 2px solid gray;
+        background-color: #fff;
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    
+/* ================================================== */
+
+
+.trade-brands .sub-trade-4{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    }
+    .trade-brands .sub-trade-4 .trade-icon-4 img{
+        width: 40px;
+        height: 40px;
+        padding-top: 2px;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-4 .trade-text-4 h3{
+        font-size: 20px;
+        padding-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-4 .trade-text-btn-4 button{
+        border: 2px solid gray;
+        background-color: #fff;
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    
+    
+/* ================================================== */
+
+
+.trade-brands .sub-trade-5{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    }
+    .trade-brands .sub-trade-5 .trade-icon-5 img{
+        width: 40px;
+        height: 40px;
+        padding-top: 2px;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-5 .trade-text-5 h3{
+        font-size: 20px;
+        padding-top: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    .trade-brands .sub-trade-5 .trade-text-btn-5 button{
+        border: 2px solid gray;
+        background-color: #fff;
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    
+    .our-products{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
+    .our-products .text h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .our-products .arrows{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .our-products .arrows .left-arrow-1 img{
+        width: 50px;
+        height: 50px;
+    }
+    .our-products .arrows .right-arrow-1 img{
+        width: 50px;
+        margin-left: 20px;
+        height: 50px;
+    }
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.product-container .sub-product-container-1{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(20, 0, 62);
+    height: 400px;
+    margin-left: 60px;
+    padding: 10px;
+    padding-left: 50px;
+    width: 600px;
+}
+.product-container .sub-product-container-1 button{
+    display: flex;
+    background-color: rgb(69, 69, 126);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.product-container .sub-product-container-1 button .wallet-icon img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+.product-container .sub-product-container-1 button .wallet-text h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.product-container .sub-product-container-1 h1{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.product-container .sub-product-container-1 h3{
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.product-container .sub-product-container-1 .start-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-container .sub-product-container-1 .start-btn .right-upper-arrow-2 img{
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: -150px;
+}
+.product-container .sub-product-container-1 .start-btn .start-text h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -300px;
+    margin-top: 35px;
+}
+.product-container .sub-product-container-2{
+    margin-right: 150px;
+}
+.product-container .sub-product-container-2 .discount-1{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(118, 118, 118);
+    border-radius: 20px ;
+    background-color: #fff;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 475px;
+}
+.product-container .sub-product-container-2 .discount-1 .discount-no h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+.product-container .sub-product-container-2 .discount-1 .discount-percent h3{
+    font-size: 30px;
+    margin-left: -30px;
+    margin-top: 55px;
+    font-weight: 800;
+}
+.product-container .sub-product-container-2 .discount-1 .discount-text h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+.product-container .sub-product-container-2 .discount-2{
+    border: 2px solid rgb(118, 118, 118);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 450px;
+    border-radius: 20px ;
+    background-color: rgb(131, 131, 255);
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.product-container .sub-product-container-2 .discount-2 .discount-divide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-container .sub-product-container-2 .discount-2 .discount-no-2 h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.product-container .sub-product-container-2 .discount-2 .discount-percent-2 h3{
+    font-size: 30px;
+    margin-left: -330px;
+    margin-top: 55px;
+    font-weight: 800;
+}
+.product-container .sub-product-container-2 .discount-2 .discount-text-2 h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.explore-container-1{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.explore-container-1 .sub-explore-text-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore-container-1 .sub-explore-text-1 .explore-text-1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -100px;
+}
+.explore-container-1 .sub-explore-text-1 .bitcoin-icon-2 img{
+    width: 60px;
+    height: 60px;
+    margin-left: -330px;
+    margin-top: 12px;
+}
+
+
+.explore-container-1 .sub-explore-text-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore-container-1 .sub-explore-text-2 .text-explore-2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: -600px;
+}
+.explore-container-1 .sub-explore-text-2 .candle-icon img{
+    width: 60px;
+    height: 60px;
+    margin-left: -190px;
+    margin-top: 12px;
+}
+.explore-container-1 .sub-explore-text-2 .text-explore-3 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -450px;
+}
+
+.buy-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-right: 100px;
+}
+.buy-container .buying-information h3{
+    font-size: 15px;
+    font-weight: 300;
+}
+.buy-container .stores-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.buy-container .stores-container .apple-store{
+    background-color: black;
+    border: none;
+    width: 200px;
+    padding-top: 5px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.buy-container .stores-container .apple-store .apple-icon img{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.buy-container .stores-container .apple-store .apple-text{
+    color: #fff;
+    margin-right: 50px;
+    padding-top: 5px;
+}
+.buy-container .stores-container .apple-store .apple-text .text-apple-1 h3{
+    font-size: 10px;
+    font-weight: 200;
+    color: #fff;
+}
+.buy-container .stores-container .apple-store .apple-text .text-apple-2 h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;   
+}
+
+
+.buy-container .stores-container .google-store{
+    background-color: black;
+    border: none;
+    width: 200px;
+    padding-top: 5px;
+    margin-right: 70px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.buy-container .stores-container .google-store .google-icon img{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.buy-container .stores-container .google-store .google-text{
+    color: #fff;
+    margin-right: 50px;
+    padding-top: 5px;
+}
+.buy-container .stores-container .google-store .google-text .text-google-1 h3{
+    font-size: 10px;
+    font-weight: 200;
+    color: #fff;
+}
+.buy-container .stores-container .google-store .google-text .text-google-2 h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;   
+}
+.buy-container .trade-buy-container{
+    display: flex;
+    justify-content: space-between;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 230px;
+    margin-top: 30px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-icon img{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 20px; */
+    margin-right: 60px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-buying .bitcoin-buy{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-right: 20px;
+    padding: 2px;
+    float: right;
+    border: none;
+    background-color: rgb(143, 143, 243);
+    border-radius: 10px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-buying .bitcoin-buy .exchange-bitcoin-icon img{
+    width: 15px;
+    height: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-buying .bitcoin-buy .bitcoin-buy-text h3{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-buying .bitcoin-trade{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-top: 40px;
+    /* margin-right: -60px; */
+    margin-left: 15px;
+    padding: 2px;
+    /* float: right; */
+    border: none;
+    background-color: rgb(143, 243, 165);
+    border-radius: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-buying .bitcoin-trade .candle-trade-icon img{
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-details .bitcoin-details-buying .bitcoin-trade .trade-buy-text h3{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-name{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-name .bitcoin-name-1 h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-name .bitcoin-name-2 h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 50px;
+    color: gray;
+}
+
+
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-range{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-range .bitcoin-rate h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.buy-container .trade-buy-container .sub-buy-trade-1 .bitcoin-range .bitcoin-profit h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 80px;
+    color: green;
+}
+
+/* =========================================================================================== */
+
+.buy-container .trade-buy-container .sub-buy-trade-2{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 230px;
+    margin-top: 30px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-icon img{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 20px; */
+    margin-right: 60px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-buying .ethereum-buy{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-right: 20px;
+    padding: 2px;
+    float: right;
+    border: none;
+    background-color: rgb(143, 143, 243);
+    border-radius: 10px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-buying .ethereum-buy .exchange-ethereum-icon img{
+    width: 15px;
+    height: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-buying .ethereum-buy .ethereum-buy-text h3{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-buying .ethereum-trade{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-top: 40px;
+    /* margin-right: -60px; */
+    margin-left: 15px;
+    padding: 2px;
+    /* float: right; */
+    border: none;
+    background-color: rgb(143, 243, 165);
+    border-radius: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-buying .ethereum-trade .candle-trade-icon-2 img{
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-details .ethereum-details-buying .ethereum-trade .trade-buy-text-2 h3{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-name{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-name .ethereum-name-1 h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-name .ethereum-name-2 h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-left: 10px;
+    color: gray;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-range{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-range .ethereum-rate h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.buy-container .trade-buy-container .sub-buy-trade-2 .ethereum-range .ethereum-profit h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 80px;
+    color: green;
+}
+
+/* =========================================== */
+
+
+.institutional-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.institutional-container .sub-institute-container-1{
+    border: none;
+    border-radius: 20px 0 0 20px;
+    background-color: rgb(20, 0, 62);
+    height: 400px;
+    margin-left: 60px;
+    padding: 10px;
+    padding-left: 50px;
+    width: 1250px;
+    height: 500px;
+}
+.institutional-container .sub-institute-container-1 button{
+    display: flex;
+    background-color: rgb(69, 69, 126);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.institutional-container .sub-institute-container-1 button .institute-icon img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+.institutional-container .sub-institute-container-1 button .institute-text h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.institutional-container .sub-institute-container-1 h1{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.institutional-container .sub-institute-container-1 h3{
+    color: rgb(190, 190, 190);
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.institutional-container .sub-institute-container-1 .start-btn-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.institutional-container .sub-institute-container-1 .start-btn-2 .right-upper-arrow-3 img{
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: -200px;
+}
+.institutional-container .sub-institute-container-1 .start-btn-2 .start-text-2 h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -400px;
+    margin-top: 35px;
+}
+.insitute-image{
+    border-radius: 0 20px 20px 00;
+    margin-right: 80px;
+    background-color: rgb(20, 0, 62);
+}
+
+
+.learn-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.learn-container .sub-learn-container-1{
+    margin-left: 50px;
+}
+.learn-container .sub-learn-container-1 .learn-discount-1{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px ;
+    background-color: #fff;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 475px;
+}
+.learn-container .sub-learn-container-1 .learn-discount-1 .learn-discount-no h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+.learn-container .sub-learn-container-1 .learn-discount-1 .learn-discount-percent h3{
+    font-size: 30px;
+    margin-left: -30px;
+    margin-top: 55px;
+    font-weight: 800;
+}
+.learn-container .sub-learn-container-1 .learn-discount-1 .learn-discount-text h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+.learn-container .sub-learn-container-1 .learn-discount-2{
+    border: 2px solid rgb(118, 118, 118);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 450px;
+    border-radius: 20px ;
+    background-color: rgb(255, 222, 131);
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.learn-container .sub-learn-container-1 .learn-discount-2 .learn-discount-divide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-container .sub-learn-container-1 .learn-discount-2 .learn-discount-no-2 h1{
+    font-size: 70px;
+    font-weight: 800;
+    padding-left: 120px;
+}
+.learn-container .sub-learn-container-1 .learn-discount-2 .learn-discount-percent-2 h3{
+    font-size: 30px;
+    margin-left: -210px;
+    margin-top: 55px;
+    font-weight: 800;
+}
+.learn-container .sub-learn-container-1 .learn-discount-2 .learn-discount-text-2 h2{
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+
+.learn-container .sub-learn-container-2{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    height: 400px;
+    margin-right: 80px;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 50px;
+    width: 600px;
+}
+.learn-container .sub-learn-container-2 button{
+    display: flex;
+    background-color: rgb(69, 69, 126);
+    color: rgb(201, 201, 201);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.learn-container .sub-learn-container-2 button .learn-icon img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+.learn-container .sub-learn-container-2 button .learn-text h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.learn-container .sub-learn-container-2 h1{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight: 800;
+}
+.learn-container .sub-learn-container-2 h3{
+    color: rgb(109, 109, 109);
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.learn-container .sub-learn-container-2 .start-btn-learn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.learn-container .sub-learn-container-2 .start-btn-learn .right-upper-arrow-4 img{
+    background-color: #fff;
+    border: 2px solid rgb(189, 189, 189);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: -150px;
+}
+.learn-container .sub-learn-container-2 .start-btn-learn .start-text-learn h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -300px;
+    margin-top: 35px;
+}
+
+/* ======================================== */
+
+.end-container{
+    background-color: rgb(240, 240, 240);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.end-container .end-container-1{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.end-container .end-container-1 .sub-end-text-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.end-container .end-container-1 .sub-end-text-1 .end-text-1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -170px;
+}
+.end-container .end-container-1 .sub-end-text-1 .end-icon-2 img{
+    width: 50px;
+    height: 50px;
+    margin-left: -270px;
+    margin-top: 12px;
+}
+
+.end-container .end-container-1 .sub-end-text-1 .end-text-1-a h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -485px;
+}
+
+.end-container .end-container-1 .sub-end-text-2{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.end-container .end-container-1 .sub-end-text-2 .text-end-2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: -50px;
+}
+.end-container .end-container-1 .sub-end-text-2 .end-candle-icon img{
+    width: 60px;
+    height: 60px;
+    margin-left: -210px;
+    margin-top: 12px;
+}
+.end-container .end-container-1 .sub-end-text-2 .text-end-3 h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -410px;
+}
+.end-sub-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+.end-sub-container .end-text-2 h3{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(120, 119, 119);
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.end-sub-container .get-started-2 {
+    padding-right: 150px;
+    /* padding-bottom: 100px; */
+}
+.end-sub-container .get-started-2 button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-right: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.footer-container .footer-details img{
+    width: 40px;
+    height: 40px;
+}
+.footer-container .footer-details .social-media{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.footer-container .footer-details .social-media .twitter p{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-container .footer-details .social-media .twitter p:hover{
+    transition: all 0.5s ease-in-out;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    color: blue;
+}
+.footer-container .footer-details .social-media .instagram p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-container .footer-details .social-media .instagram p:hover{
+    transition: all 0.5s ease-in-out;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgb(255, 0, 93);
+}
+.footer-container .footer-details .social-media .medium p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: -500px;
+    padding-top: 5px;
+    width: 60px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.footer-container .footer-details .social-media .medium p:hover{
+    transition: all 0.5s ease-in-out;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.footer-container .footer-details h2{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.footer-container .footer-details h3{
+    font-size: 10px;
+    font-weight: 400;
+    color: gray;
+}
+
+.footer-container .footer-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container .footer-list .product-list{
+padding-right: 50px;
+}
+.footer-container .footer-list .product-list ul{
+    list-style: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer-container .footer-list .product-list ul li:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#header-list{
+    padding-bottom: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-container .footer-list .product-list ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-container .footer-list .product-list .product-list-2{
+    display: flex;
+    justify-content: space-between;
+}
+#new-tag{
+    color: blue;
+    background-color: rgb(170, 170, 255);
+    border: 2px solid blue;
+    padding-left: 15px;
+    margin-left: 10px;
+    padding-right: 15px;
+    border-radius: 5px;
+    width: 20px;
+    height: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 10px;
+
+}
+
+.footer-container .footer-list .resources-list{
+    padding-right: 50px;
+    }
+    .footer-container .footer-list .resources-list ul{
+        list-style: none;
+        color: gray;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .footer-container .footer-list .resources-list ul li:hover{
+        color: black;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+    #header-list-2{
+        padding-bottom: 10px;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .footer-container .footer-list .resources-list ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-container .footer-list .resources-list .resources-list-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    #new-tag-2{
+        color: blue;
+        background-color: rgb(170, 170, 255);
+        border: 2px solid blue;
+        padding-left: 15px;
+        margin-left: 10px;
+        padding-right: 15px;
+        border-radius: 5px;
+        width: 20px;
+        height: 10px;
+        padding-top: 5px;
+        margin-top: 5px;
+        font-size: 10px;
+    
+    }
+
+    .footer-container .footer-list .company-list{
+        padding-right: 50px;
+        }
+        .footer-container .footer-list .company-list ul{
+            list-style: none;
+            color: gray;
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .footer-container .footer-list .company-list ul li:hover{
+            cursor: pointer;
+            color: black;
+            transition: all 0.5s ease-in-out;
+        }
+        #company-list-2{
+            padding-bottom: 10px;
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .footer-container .footer-list .company-list ul li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .footer-container .footer-list .company-list .company-list-2{
+            display: flex;
+            justify-content: space-between;
+        }
+        #new-tag-3{
+            color: blue;
+            background-color: rgb(170, 170, 255);
+            border: 2px solid blue;
+            padding-left: 15px;
+            margin-left: 10px;
+            padding-right: 15px;
+            border-radius: 5px;
+            width: 20px;
+            height: 10px;
+            padding-top: 5px;
+             margin-top: 5px;
+            font-size: 10px;
+        
+        }
